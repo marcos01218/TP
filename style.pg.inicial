@@ -1,0 +1,25 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --letras-azul: #6F95FF;
+    --cor-de-fundo: #413B6B;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("imagens\ prog/prog");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+}
