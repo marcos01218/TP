@@ -23,3 +23,11 @@ body {
 .container {
     height: 100vh;
 }
+
+.container__botão {
+    background-color: var(--botão-projetos);
+    bordair-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}
