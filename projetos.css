@@ -27,18 +27,15 @@ align-items: start;
     text-decoration: underline;
 }
 
+
 .contato {
     color: #ffffff;
-    text-decoration: none;
-    le
-
-
 }
 
+a:link {
+    text-decoration: none;
+  }
 
-
-
-.contato a:hover{
+.contato a:hover {
     text-decoration: underline;
-
 }
