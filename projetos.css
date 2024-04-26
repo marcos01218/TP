@@ -1,3 +1,8 @@
+
+.fundo{
+    background-image: radial-gradient(#413B6B, #251434 75%, #241233);
+}
+
 .cabecalho {
     display: flex;
     background-color: #1C0B2B;
@@ -40,3 +45,105 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.interior {
+
+    width: 1440;
+    height: 500px;
+    display: flex
+}
+
+.bloco1 {
+    margin-left: 16%;
+    margin-right: 69.4%;
+    display: flex;
+
+}
+
+.texto1 {
+    padding-left: 14%;
+    color: #ffffff;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 70px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+
+.imagem1 {
+    margin-top: 2%;
+    width: 406px;
+    height: 266px;
+    border: #ffffff solid 5px;
+
+}
+
+.extra:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.imagem1:hover{
+    border: #ffffff solid 5px;
+    transform: scale(1.05);
+}
+
+.texto2 {
+    padding-left: 14%;
+    color: #ffffff;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 70px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+
+.imagem2 {
+    margin-top: 2%;
+    width: 406px;
+    height: 266px;
+    border: #ffffff solid 5px;
+
+}
+
+
+.imagem2:hover{
+    border: #ffffff solid 5px;
+    transform: scale(1.05);
+}
+
+.extra2 {
+    margin-right: 14%;
+    margin-left: 30%;
+}
+
+.extra2:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.texto3 {
+    padding-left: 14%;
+    color: #ffffff;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 70px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+
+
+
+
