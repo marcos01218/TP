@@ -1,40 +1,49 @@
-:root {
-    --branco-principal: #FFFFFF;
-    --letras-azul: #6F95FF;
-    --cor-de-fundo: #413B6B;
-}
-
-body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
-}
-
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-.principal {
-    background-image: url("imagens\ prog/prog");
-    background-repeat: no-repeat;
-    background-size: contain;
+body {
+    font-family: 'Orbitron', sans-serif;
 }
 
-.container {
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+header{
+    background-color: #1C0B2B;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
 }
 
-.container__botão {
-    background-color: var(--botão-projetos);
-    bordair-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    display: block;
+.cabeçalho-imagem{
+    width: 8%;
 }
 
-.botão_secundario {
-    background-color: transparent;
-    border: 2px solid var(--branco-principal)
+.cabeçaho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.pagina-imagem{
+    width: 90%;
+}
+
+.contato{
+    background-image: linear-gradient(#1C0B2B, #251434, #1C0B2B);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 34px 0;
+}
+
+.contato-div-conteudo{
+    width: 35%;
+
+}
+
+.contato-titulo{
+    padding: 24px 0;
 }
