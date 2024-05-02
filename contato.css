@@ -1,0 +1,93 @@
+
+.cabecalho {
+    display: flex;
+    background-color: #1C0B2B;
+
+
+}
+
+.menu {
+    padding-left: 42%;
+    padding-top: 27px;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    
+
+}
+
+.cabecalho li {
+    display: inline;
+}
+
+.contato {
+    padding-right: 65px;
+    color: #6F95FF;
+    text-decoration: underline;
+}
+
+.projetos {
+    padding-right: 65px;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.interior {
+
+    width: 1440;
+    height: 700px;
+
+    display: flex;
+    color: #ffffff;
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    text-align: left;
+
+
+}
+
+.loca {
+    border: #ffffff solid 10px;
+    margin-bottom: 150px;
+    margin-top: 80px;
+}
+
+.texto {
+    margin-top: 210px;
+    margin-left: 20px;
+    list-style: none;
+    margin-right: 160px;
+}
+
+.texto2 {
+    padding-top: 20px;
+}
+
+
+.site {
+    background-image: radial-gradient(#413B6B, #251434 75%, #241233); 
+}
+
+.locali {
+    font-size: 44px;
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    margin-left: 975px;
+    position: relative;
+    bottom: 140px;
+}
