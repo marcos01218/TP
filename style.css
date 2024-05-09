@@ -1,23 +1,99 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 
-header{
-    background-color: #1C0B2B;
-    color: white;
+.cabecalho {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 15px 0;
+    background-color: #1C0B2B;
+
+
 }
 
-.cabeçalho-imagem{
-    width: 10%;
+.menu {
+    padding-left: 42%;
+    padding-top: 27px;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    
+
 }
 
-.cabeçaho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
+.contato {
+    padding-right: 65px;
+}
+
+.cabecalho li {
+    display: inline;
+}
+
+.projetos {
+    padding-right: 65px;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.interior {
+
+    width: 1440;
+    height: 900px;
+    background-image: radial-gradient(#413B6B, #251434 75%, #241233);
+
+
+}
+
+.embaixo {
+    display: flex;
+}
+
+.textoum{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    color: #ffffff;
+    font-size: 56px;
+    margin-left: 75px;
+    list-style: none;
+    margin-top: 70px;
+}
+
+.textodois {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    margin-top: 60px;
+    letter-spacing: 2px;
+    line-height: 38px;
+
+}
+
+.textotres {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height: 38px;
+    margin-top: 10px;
+
+}
+
+.imagembraba {
+    margin-right: -75px;
+    margin-top: -30px;
+
+}
+
+.site {
+    overflow-x: hidden;
 }
