@@ -1,37 +1,43 @@
 
 .cabecalho {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #1C0B2B;
-
-
+    padding: 10px;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Menu */
 .menu {
-    padding-left: 42%;
-    padding-top: 27px;
-    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
     color: #ffffff;
     font-family: "Orbitron", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
-    font-style: normal;
-    
-
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
 }
 
-.cabecalho li {
+.menu li {
     display: inline;
+    margin-right: 20px;
 }
 
-.contato {
-    padding-right: 65px;
-    color: #6F95FF;
-    text-decoration: underline;
-}
-
-.projetos {
-    padding-right: 65px;
-
+.contato, .projetos, .integrantes {
+    padding: 10px;
 }
 
 a {
@@ -43,51 +49,79 @@ a:hover {
     text-decoration: underline;
 }
 
-.interior {
 
-    width: 1440;
-    height: 700px;
-
-    display: flex;
+.site {
+    background-image: radial-gradient(#413B6B, #251434 75%, #241233); 
+    font-family: "JetBrains Mono", monospace;
     color: #ffffff;
-    font-family: "Michroma", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 32px;
-    text-align: left;
-
-
+    padding: 20px;
+    text-align: center;
 }
 
-.loca {
-    border: #ffffff solid 10px;
-    margin-bottom: 150px;
-    margin-top: 80px;
+.interior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Michroma", sans-serif;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 20px;
 }
 
 .texto {
-    margin-top: 210px;
-    margin-left: 20px;
+    margin-top: 20px;
     list-style: none;
-    margin-right: 160px;
+    text-align: center;
 }
 
 .texto2 {
     padding-top: 20px;
 }
 
-
-.site {
-    background-image: radial-gradient(#413B6B, #251434 75%, #241233); 
+.loca {
+    border: #ffffff solid 10px;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
 }
 
 .locali {
-    font-size: 44px;
+    font-size: 36px;
     font-family: "Michroma", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     color: #ffffff;
-    margin-left: 975px;
-    position: relative;
-    bottom: 140px;
+    margin-top: 20px;
+}
+
+
+@media (min-width: 601px) {
+    .menu {
+        justify-content: flex-start;
+        padding-left: 42%;
+        font-size: 35px;
+    }
+
+    .interior {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .texto {
+        text-align: left;
+        margin-right: 160px;
+    }
+
+    .loca {
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .locali {
+        font-size: 44px;
+        text-align: right;
+        margin-left: auto;
+        margin-right: 20px;
+    }
 }
