@@ -67,8 +67,6 @@
 					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
 				</fieldset>
     
-</body>
-</html>
 
 <fieldset>
     <legend>Qual horário prefere ser atendido?</legend>
