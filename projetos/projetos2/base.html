@@ -6,22 +6,53 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: hidden;
-         
         }
-      video {
+        video {
         display: block;
         margin: auto;
-        margin-top: 2.5vw;
-        margin-bottom: 3vw;
-        border: solid 0.75vw white;
+        margin-top: 20%;
+        border: solid 1.75vw white;
+        border-radius: 5px;
+        align-items: center;
+        align-content: center;
+        width: 82%;
+        margin-left: auto 10%;
       }
+      .celular {
+        display: flex;
+      }
+      .pc {
+        display: none;
+      }
+      
+        @media screen and (orientation: landscape) {
+          .pc {
+            display: flex;
+          }
+          .celular {
+            display: none;
+          }
+      video {
+        
+        display: block;
+        margin: auto;
+        margin-top: auto 5%;
+        margin-top: 3%;
+        border: solid 0.75vw white;
+        border-radius: 5px;
+        align-items: center;
+        align-content: center;
+        max-width: 75%;
+      }
+    }
     </style>
   </head>
   <body class="fundo">
-    <video width="80%" controls>
+    <video class="pc" width="100%" controls>
       <source src="semáforo4deitado.mp4" type="video/mp4">
-      <source src="example.ogg" type="video/ogg">
-      Your browser does not support the video tag.
+    </video>
+    <video class="celular" width="90%" controls>
+      <source src="semáforo4celular.mp4" type="video/mp4">
     </video>
   </body>
 </html>
